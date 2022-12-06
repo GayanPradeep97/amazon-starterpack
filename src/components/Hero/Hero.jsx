@@ -16,7 +16,7 @@ class Hero extends Component {
                         <span>Trendy Collection </span>
                         <span>
                             {" "}
-                            Seedily say has suitable disposal and boy . Exercise joy man children 
+                            Seedily say has suitable<b/> disposal and boy.<b/> Exercise joy man children<b/>
                             rejoiced.
                         </span>
                     </div>

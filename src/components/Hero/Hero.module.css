@@ -11,9 +11,35 @@
     position: relative;
 }
 .wrapper>img{
-    width: 30rem;
+    width: 19rem;
     position: absolute;
-    bottom: 0;
+    bottom: 15%;
+}
+.blueCircle{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    z-index: -99;
+    position: absolute;
+    bottom: 15%;
+    background: linear-gradient(135.74deg, #0bb5ff 14.09%, #6dd3fe 83.81%);
+
+}
+.cart2{
+    position: absolute;
+    bottom: 25%;
+    right: 0%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.cart2>svg{
+    width: 30px;
+    height: 30px;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    border: 3px solid var(--black);
 }
 
 
@@ -24,7 +50,7 @@
 }
 .text1{
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: min-content;
     display: block;
     font-weight: 600;
@@ -32,19 +58,38 @@
 }
 .text2{
     display: flex;
+    padding-top: 10%;
     flex-direction: column;
     width: min-content;
     color: black;
 }
 .text2>:first-child{
     font-weight: 800;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 .text2>:nth-child(2){
    display: block;
+   font-size: 1rem;
 }
 .traffic{
     display: flex;
     flex-direction: column;
     text-align: right;
+}
+.traffic>:first-child{
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-align: right;
+}
+
+.customer{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-top: 40%;
+}
+.customer>:first-child{
+    font-weight: 800;
+    text-align: right;
+    font-size: 2.5rem;
 }
