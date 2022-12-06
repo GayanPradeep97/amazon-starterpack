@@ -1,0 +1,14 @@
+.s-container{
+    position: relative;
+}
+.s-container .swiper{
+    width: 70%;
+    height: 12rem;
+    position: unset;
+}
+.s-container .swiper-slider{
+    background: white;
+    display: flex;
+    border-radius: 10px;
+    padding: 1rem;
+}

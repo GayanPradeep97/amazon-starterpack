@@ -29,11 +29,12 @@ class Hero extends Component {
                         <RiShoppingBagFill/>
                     <div className={css.signup}>
                         <span>Best Signup Offerrs</span>
+                        <span><BsArrowRight/></span>
 
                     </div>
-                    <div>
-                        <BsArrowRight/>
-                    </div>
+                   
+                        
+                    
                     </div>
                 </div>
                 {/*right side */}
