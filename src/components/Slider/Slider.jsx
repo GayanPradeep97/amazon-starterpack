@@ -14,6 +14,11 @@ class Slider extends Component {
         return (
             <div className='s-container'>
                 <Swiper
+                modules={[Pagination, Navigation]}
+                className="mySwiper"
+                navigation={true}
+                loopFillGroupWithBlank={true} 
+
                 slidesPerView={3}
                 spaceBetween={40}
                 slidesPerGroup={1}
