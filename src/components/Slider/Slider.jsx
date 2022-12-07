@@ -14,7 +14,7 @@ class Slider extends Component {
         return (
             <div className='s-container'>
                 <Swiper
-                modules={[Pagination, Navigation]}
+                //modules={[Pagination, Navigation ]}
                 className="mySwiper"
                 navigation={true}
                 loopFillGroupWithBlank={true} 
@@ -32,7 +32,7 @@ class Slider extends Component {
                                     <span>{slide.name}</span>
                                     <span>{slide.detail}</span>
                                 </div>
-                                <span>(slide.price)$</span>
+                                <span>{slide.price}$</span>
                                 <div>Shop Now</div>
                             </div>
                             <img src={slide.img} alt="product" className='img-p'/>
