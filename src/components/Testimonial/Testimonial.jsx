@@ -29,8 +29,9 @@ const Testimonial = () => {
 
                 <div className={css.reviews}>Reviews</div>
                 
-
-                 <div className={css.carousal}>
+                 
+            </div>
+            <div className={css.carousal}>
                     <Swiper
                     slidesPerView={3}
                     slidesPerGroup={1}
@@ -41,7 +42,7 @@ const Testimonial = () => {
                             TestimonialsData.map((testimonial, i)=>(
                                 <SwiperSlide>
                                     <div className={css.testimonial}>
-                                        <img src={testimonial.img} alt=""/>
+                                        <img src={testimonial.image} alt=""/>
                                         <span>{testimonial.comment}</span>
                                         <hr/>
                                         <span>{testimonial.name}</span>
@@ -51,7 +52,6 @@ const Testimonial = () => {
                         }
                     </Swiper>
                  </div>
-            </div>
         </div>
     );
 };
