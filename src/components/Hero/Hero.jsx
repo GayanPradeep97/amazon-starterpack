@@ -3,9 +3,10 @@ import css from "./Hero.module.css"
 import HeroImg from "../../assets/hero.png"
 import {RiShoppingBagFill} from 'react-icons/ri'
 import {BsArrowRight} from 'react-icons/bs' 
+import {motion } from 'framer-motion';
 
-class Hero extends Component {
-    render() {
+const Hero = () => {
+    
         return (
             <div className={css.container}>
 
@@ -52,6 +53,6 @@ class Hero extends Component {
             </div>
         );
     }
-}
+
 
 export default Hero;
